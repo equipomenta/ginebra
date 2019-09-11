@@ -2,10 +2,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 .header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(65,80,119,0.78)), to(rgba(65,80,119,0.78))), url("../../images/header.jpg");
-  background-image: -webkit-linear-gradient(rgba(65,80,119,0.78), rgba(65,80,119,0.78)), url("../../images/header.jpg");
-  background-image: -o-linear-gradient(rgba(65,80,119,0.78), rgba(65,80,119,0.78)), url("../../images/header.jpg");
-  background-image: linear-gradient(rgba(65,80,119,0.78), rgba(65,80,119,0.78)), url("../../images/header.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(65,80,119,0.78)), to(rgba(65,80,119,0.78))), url("../images/header.jpg");
+  background-image: -webkit-linear-gradient(rgba(65,80,119,0.78), rgba(65,80,119,0.78)), url("../images/header.jpg");
+  background-image: -o-linear-gradient(rgba(65,80,119,0.78), rgba(65,80,119,0.78)), url("../images/header.jpg");
+  background-image: linear-gradient(rgba(65,80,119,0.78), rgba(65,80,119,0.78)), url("../images/header.jpg");
   background-size: cover;
   background-position: center center;
   border-radius: 0rem;
