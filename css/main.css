@@ -83,6 +83,20 @@ body {
   height: 76px;
   width: auto;
 }
+.header-icons a {
+  color: #fff;
+  font-family: 'byombold';
+}
+.header-icons a:hover {
+  color: #0eb193;
+  text-decoration: underline;
+}
+.header-icons a:focus {
+  color: #0eb193;
+}
+.header-icons a:active {
+  color: #0eb193;
+}
 .header-icons i {
   color: #0eb193;
 }
