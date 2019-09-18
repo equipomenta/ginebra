@@ -228,9 +228,113 @@ body {
   background-color: #0eb193;
   color: #fff;
 }
+.content-comprueba .comprueba-text .siente,
+.content-comprueba .comprueba-text .comprueba {
+  font-family: 'byombold';
+  font-size: 39px;
+  line-height: 1.2;
+}
+.content-comprueba .comprueba-text .materiales,
+.content-comprueba .comprueba-text .nuevo {
+  font-family: 'byomregular';
+  font-size: 25px;
+  line-height: 1.2;
+}
+.content-comprueba .comprueba-text .services-title {
+  font-family: 'byombold';
+  font-size: 21.92px;
+}
+.content-comprueba .comprueba-text .services-text {
+  font-family: 'byomregular';
+  font-size: 12px;
+}
 .content-comprueba .img-btn {
   width: 200.696px;
   height: auto;
+}
+.beneficios .box-beneficio {
+  border: solid 2px #0eb193;
+  height: 100%;
+}
+.beneficios .img-beneficio {
+  background-color: #fff;
+  height: auto;
+  width: 45px;
+  position: absolute;
+  margin: -46px -20px;
+}
+.beneficios .two {
+  color: #415077;
+  font-family: 'trackregular';
+  font-size: 23px;
+}
+.beneficios .estaciona {
+  color: #0eb193;
+  font-family: 'byombold';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.beneficios .por {
+  color: #0eb193;
+  font-family: 'byombold';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.beneficios .dptos {
+  color: #0eb193;
+  font-family: 'byombold';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.beneficios .ascensor {
+  font-family: 'byombold';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.beneficios .cocinas {
+  color: #0eb193;
+  font-family: 'byombold';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.beneficios .totalmente {
+  color: #415077;
+  font-family: 'byombold';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.beneficios .equipadas {
+  color: #415077;
+  font-family: 'byombold';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.beneficios .equipadas-text {
+  color: #0eb193;
+  font-family: 'byomlight';
+  font-size: 12px;
+}
+.beneficios .salida {
+  color: #415077;
+  font-family: 'byombold';
+  font-size: 14px;
+}
+.beneficios .departamentos {
+  color: #415077;
+  font-family: 'byombold';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.beneficios .acabados {
+  font-family: 'byombold';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.beneficios .calidad {
+  color: #415077;
+  font-family: 'byombold';
+  font-size: 14px;
+  text-transform: uppercase;
 }
 footer p {
   color: #58595b;
