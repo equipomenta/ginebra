@@ -361,6 +361,10 @@ body {
   font-size: 14px;
   text-transform: uppercase;
 }
+.col-md-parejas {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 footer p {
   color: #58595b;
   font-family: 'byombold';
