@@ -76,12 +76,23 @@ body {
 }
 .header .flecha {
   position: absolute;
-  margin: 5px 320px;
+  margin: 20px 280px;
   width: 60px;
 }
 .logo {
   height: 76px;
   width: auto;
+}
+.header-icons i {
+  color: #0eb193;
+}
+.header-icons .telf {
+  color: #0eb193;
+}
+.icon-box-header-f,
+.icon-box-header-w {
+  border: solid 2px #0eb193;
+  padding: 5px;
 }
 .form-container {
   background-color: #0eb193;
