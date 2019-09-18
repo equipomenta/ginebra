@@ -183,3 +183,76 @@ body {
   color: #fff;
   line-height: 1.2;
 }
+.content .ubicacion-bg-color .mejor {
+  font-family: 'byomlight';
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.content .ubicacion-bg-color .ubicacion {
+  font-family: 'byombold';
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.content .ubicacion-bg-color .direccion {
+  color: #0eb193;
+  font-family: 'byombold';
+  font-size: 18px;
+}
+.content .mamparas-bg-color {
+  background-color: #0eb193;
+}
+.content .mamparas-pre-text {
+  color: #fff;
+  font-family: 'byombold';
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.content .mamparas-header {
+  color: #fff;
+  font-family: 'byomlight';
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.content .mamparas-header-2 {
+  color: #fff;
+  font-family: 'byombold';
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.content .mamparas-text {
+  color: #fff;
+  font-family: 'byomregular';
+  font-size: 15px;
+}
+.content-comprueba .comprueba-text {
+  background-color: #0eb193;
+  color: #fff;
+}
+.content-comprueba .comprueba-img {
+  background-image: url("../images/pareja.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-comprueba .img-btn {
+  width: 200.696px;
+  height: auto;
+}
+footer p {
+  color: #58595b;
+  font-family: 'byombold';
+  font-size: 15.67px;
+}
+footer .img-brand {
+  height: auto;
+  width: 124.674px;
+}
+footer .url-container {
+  border: solid 1px #909190;
+  border-radius: 4px;
+  padding: 5px 5px 8px 5px;
+}
+footer .url {
+  color: #f00;
+  font-family: 'byombold';
+  font-size: 14.47px;
+}
