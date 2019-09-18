@@ -228,11 +228,6 @@ body {
   background-color: #0eb193;
   color: #fff;
 }
-.content-comprueba .comprueba-img {
-  background-image: url("../images/pareja.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .content-comprueba .img-btn {
   width: 200.696px;
   height: auto;
