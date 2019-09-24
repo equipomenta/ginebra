@@ -44,7 +44,10 @@
                     <p class="lead">en el mejor departamento,<br>la mejor ubicación y la<br>mejor compañía</p>
                 </div>
                 <div class="col-md-6" data-aos="zoom-in">
-                    <img class="w-100 h-100 video-cover" src="images/video-cover.png" alt="video-cover">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/34y_3yS3CnA?rel=0"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -196,7 +199,8 @@
                     </div>
                 </div>
                 <div class="text-center mt-5">
-                    <img class="img-fluid img-btn animated infinite pulse" src="images/btn.png" alt="btn">
+                    <img class="img-fluid img-btn animated infinite pulse" data-toggle="modal"
+                        data-target=".bd-example-modal-lg" src="images/btn.png" alt="btn">
                 </div>
             </div>
             <div class="col-md-5 col-md-parejas" data-aos="zoom-in">
@@ -230,6 +234,31 @@
         </div>
     </footer>
     <!--/Footer-->
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="container-fluid">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="row p-3 d-flex align-items-center">
+                        <div class="col-md-3">
+                            <div class="showroom-text">Av. Jorge</div>
+                            <div class="showroom-text">Cháves</div>
+                            <div class="showroom-text">Surco</div>
+                        </div>
+                        <div class="col-md-9">
+                            <img class="img-fluid" src="images/showroom.png" alt="showroom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

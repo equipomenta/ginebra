@@ -79,10 +79,6 @@ body {
   margin: 45px 340px;
   width: 40px;
 }
-.header .video-cover {
-  padding-left: 0px;
-  padding-right: 0px;
-}
 .logo {
   height: 76px;
   width: auto;
@@ -283,6 +279,7 @@ body {
   font-size: 12px;
 }
 .content-comprueba .img-btn {
+  cursor: pointer;
   width: 200.696px;
   height: auto;
 }
@@ -393,4 +390,22 @@ footer .url {
   color: #f00;
   font-family: 'byombold';
   font-size: 14.47px;
+}
+.modal-content {
+  background-color: #0eb193;
+  border: none;
+  border-radius: 0rem;
+}
+.modal-content .showroom-text {
+  color: #fff;
+  font-family: 'byombold';
+  font-size: 23px;
+  line-height: 1.2;
+}
+.modal-header {
+  border-bottom: none;
+}
+.close {
+  color: #fff;
+  font-size: 1.8rem;
 }
