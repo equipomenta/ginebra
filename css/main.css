@@ -79,6 +79,10 @@ body {
   margin: 45px 340px;
   width: 40px;
 }
+.header .video-cover {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .logo {
   height: 76px;
   width: auto;
