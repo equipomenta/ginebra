@@ -58,7 +58,7 @@ body {
 .header h1 {
   color: #fff;
   font-family: 'byombold';
-  font-size: 35px;
+  font-size: 40px;
   text-transform: uppercase;
 }
 .header h1 .life {
@@ -76,8 +76,8 @@ body {
 }
 .header .flecha {
   position: absolute;
-  margin: 20px 280px;
-  width: 60px;
+  margin: 45px 340px;
+  width: 40px;
 }
 .logo {
   height: 76px;
@@ -149,6 +149,9 @@ body {
   border-color: #fff;
   border-radius: 4px;
   font-family: 'byombold';
+}
+.btn-header:hover {
+  color: #0eb193;
 }
 .content h1 {
   color: #0eb193;
