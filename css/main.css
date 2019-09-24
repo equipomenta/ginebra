@@ -157,6 +157,8 @@ body {
 }
 .content .border-img-edificio {
   border: solid 8px #0eb193;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .content .img-edificio {
   height: auto;
@@ -284,7 +286,7 @@ body {
 .beneficios .img-beneficio {
   background-color: #fff;
   height: auto;
-  width: 45px;
+  width: 50px;
   position: absolute;
   margin: -46px -20px;
 }
@@ -312,6 +314,7 @@ body {
   text-transform: uppercase;
 }
 .beneficios .ascensor {
+  color: #0eb193;
   font-family: 'byombold';
   font-size: 14px;
   text-transform: uppercase;
