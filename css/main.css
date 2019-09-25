@@ -102,11 +102,19 @@ body {
 }
 .header-icons .telf {
   color: #0eb193;
+  font-family: 'Lato', sans-serif;
+}
+.header-icons .telf:hover {
+  text-decoration: none;
 }
 .icon-box-header-f,
 .icon-box-header-w {
   border: solid 2px #0eb193;
   padding: 5px;
+}
+.icon-box-header-f:hover,
+.icon-box-header-w:hover {
+  text-decoration: none;
 }
 .form-container {
   background-color: #0eb193;
@@ -203,6 +211,8 @@ body {
 }
 .content .border-img-mapa {
   border: solid 8px #415077;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .content .img-mapa {
   height: auto;
@@ -345,11 +355,13 @@ body {
   color: #0eb193;
   font-family: 'byomlight';
   font-size: 12px;
+  text-transform: uppercase;
 }
 .beneficios .salida {
   color: #415077;
   font-family: 'byombold';
   font-size: 14px;
+  text-transform: uppercase;
 }
 .beneficios .departamentos {
   color: #415077;
@@ -408,4 +420,13 @@ footer .url {
 .close {
   color: #fff;
   font-size: 1.8rem;
+}
+.font-track {
+  font-family: 'trackregular';
+  font-size: 23px;
+  line-height: 1.2;
+}
+.font-track-2 {
+  font-family: 'trackregular';
+  font-size: 18px;
 }
