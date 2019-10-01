@@ -199,7 +199,7 @@ body {
   font-family: 'byomlight';
   font-size: 24px;
 }
-.content .exclusivo-bg-color .mts {
+.content .exclusivo-bg-color .usd {
   color: #415077;
   font-family: 'trackregular';
   font-size: 24px;
@@ -236,7 +236,7 @@ body {
 .content .ubicacion-bg-color .direccion {
   color: #0eb193;
   font-family: 'byombold';
-  font-size: 18px;
+  font-size: 24px;
 }
 .content .mamparas-bg-color {
   background-color: #0eb193;
@@ -300,9 +300,9 @@ body {
 .beneficios .img-beneficio {
   background-color: #fff;
   height: auto;
-  width: 55px;
+  width: 60px;
   position: absolute;
-  margin: -54px -20px;
+  margin: -58px -28px;
 }
 .beneficios .two {
   color: #415077;
@@ -339,12 +339,6 @@ body {
   font-size: 14px;
   text-transform: uppercase;
 }
-.beneficios .totalmente {
-  color: #415077;
-  font-family: 'byombold';
-  font-size: 14px;
-  text-transform: uppercase;
-}
 .beneficios .equipadas {
   color: #415077;
   font-family: 'byombold';
@@ -370,6 +364,7 @@ body {
   text-transform: uppercase;
 }
 .beneficios .acabados {
+  color: #415077;
   font-family: 'byombold';
   font-size: 14px;
   text-transform: uppercase;
