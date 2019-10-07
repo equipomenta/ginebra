@@ -124,7 +124,8 @@ body {
   border-radius: 0rem;
   border: 2px solid #fff;
   color: #fff;
-  font-family: 'byomlight';
+  font-family: 'trackregular';
+  font-size: 0.9em;
   padding: 1.4rem 0.75rem;
   width: 100%;
 }
