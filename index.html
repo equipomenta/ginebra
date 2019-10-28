@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
 
@@ -60,19 +59,20 @@
                     <img class="img-fluid flecha d-none d-sm-block" src="images/flecha.png" alt="flecha">
                     <p class="info text-center mt-5">Déjanos tus datos para enviarte toda la información</p>
                     <div class="form-container p-4">
-                        <form class="form-inline justify-content-center" method="POST" id="form">
+                        <form action="https://formspree.io/proyectos@ginebraperu.com"
+                            class="form-inline justify-content-center" method="POST">
                             <div class="form-group mr-1">
-                                <input type="text" id="name" class="form-control" placeholder="Nombres" required>
+                                <input type="text" class="form-control" placeholder="Nombres" required>
                             </div>
                             <div class="form-group mr-1">
-                                <input type="email" id="email" class="form-control" placeholder="Email" required>
+                                <input type="email" class="form-control" placeholder="Email" required>
                             </div>
                             <div class="form-group mr-2">
-                                <input type="text" id="phone" class="form-control" placeholder="Teléfono" required>
+                                <input type="phone" class="form-control" placeholder="Teléfono" required>
                             </div>
                             <div class="form-group">
-                                <input type="submit" class="btn btn-header animated infinite pulse"
-                                    value="¡Quiero más detalles!">
+                                <button type="submit" class="btn btn-header animated infinite pulse"
+                                    value="¡Quiero más detalles!">¡Quiero más detalles!</button>
                             </div>
                         </form>
                     </div>
@@ -100,8 +100,7 @@
                 <div class="col-md-4 ubicacion-bg-color h-50 p-5" data-aos="zoom-in">
                     <div class="mejor">La mejor</div>
                     <div class="ubicacion">Ubicación</div>
-                    <div class="direccion">Calle Ricardo Angulo <span class="font-track-2">611</span> SAN ISIDRO -
-                        CORPAC</div>
+                    <div class="direccion">Calle Ricardo Angulo <span class="font-track-2">611</span> SAN ISIDRO - CORPAC</div>
                 </div>
                 <div class="col-md-6 border-img-mapa" data-aos="zoom-in">
                     <a href="https://goo.gl/maps/XXMBBgd7MnKTEXhk6" target="_blank">
@@ -253,8 +252,7 @@
                     </div>
                     <div class="row p-3 d-flex align-items-center">
                         <div class="col-md-3">
-                            <div class="showroom-text">Av. Jorge Chávez <span class="font-track">1106</span> - Surco
-                            </div>
+                            <div class="showroom-text">Av. Jorge Chávez <span class="font-track">1106</span> - Surco</div>
                         </div>
                         <div class="col-md-9">
                             <img class="img-fluid" src="images/showroom.png" alt="showroom">
@@ -279,9 +277,6 @@
     <script>
         AOS.init();
     </script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"></script>
 </body>
 
 </html>
