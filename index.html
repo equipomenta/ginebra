@@ -59,7 +59,8 @@
                     <img class="img-fluid flecha d-none d-sm-block" src="images/flecha.png" alt="flecha">
                     <p class="info text-center mt-5">Déjanos tus datos para enviarte toda la información</p>
                     <div class="form-container p-4">
-                        <form id="contactform" method="POST" class="form-inline justify-content-center">
+                        <form action="https://formspree.io/proyectos@ginebraperu.com"
+                            class="form-inline justify-content-center" method="POST">
                             <div class="form-group mr-1">
                                 <input type="text" class="form-control" placeholder="Nombres" required>
                             </div>
@@ -69,12 +70,9 @@
                             <div class="form-group mr-2">
                                 <input type="phone" class="form-control" placeholder="Teléfono" required>
                             </div>
-                            <div class="form-group mr-2">
-                                <input type="hidden" name="_next" value="//menta.pe" />
-                            </div>
                             <div class="form-group">
-                                <input type="submit" class="btn btn-header animated infinite pulse"
-                                    value="¡Quiero más detalles!">
+                                <button type="submit" class="btn btn-header animated infinite pulse"
+                                    value="¡Quiero más detalles!">¡Quiero más detalles!</button>
                             </div>
                         </form>
                     </div>
@@ -102,8 +100,7 @@
                 <div class="col-md-4 ubicacion-bg-color h-50 p-5" data-aos="zoom-in">
                     <div class="mejor">La mejor</div>
                     <div class="ubicacion">Ubicación</div>
-                    <div class="direccion">Calle Ricardo Angulo <span class="font-track-2">611</span> SAN ISIDRO -
-                        CORPAC</div>
+                    <div class="direccion">Calle Ricardo Angulo <span class="font-track-2">611</span> SAN ISIDRO - CORPAC</div>
                 </div>
                 <div class="col-md-6 border-img-mapa" data-aos="zoom-in">
                     <a href="https://goo.gl/maps/XXMBBgd7MnKTEXhk6" target="_blank">
@@ -255,8 +252,7 @@
                     </div>
                     <div class="row p-3 d-flex align-items-center">
                         <div class="col-md-3">
-                            <div class="showroom-text">Av. Jorge Chávez <span class="font-track">1106</span> - Surco
-                            </div>
+                            <div class="showroom-text">Av. Jorge Chávez <span class="font-track">1106</span> - Surco</div>
                         </div>
                         <div class="col-md-9">
                             <img class="img-fluid" src="images/showroom.png" alt="showroom">
@@ -280,10 +276,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-    </script>
-    <script>
-        var contactform = document.getElementById('contactform');
-        contactform.setAttribute('action', '//formspree.io/proyectos@ginebraperu.com');
     </script>
 </body>
 
