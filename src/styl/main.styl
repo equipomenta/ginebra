@@ -2,12 +2,13 @@
 
 $green = #0eb193
 $purple = #415077
+$yellow = #e1b71f
 
 body
     font-family 'Lato', sans-serif
 
 .header
-    background-image linear-gradient(rgba(65, 80, 119, 0.78), rgba(65, 80, 119, 0.78)), url("../images/header.jpg")
+    background-image linear-gradient(rgba(14, 177, 147, 0.77), rgba(14, 177, 147, 0.77)), url("../images/header.jpg")
     background-size cover
     background-position center center
     border-radius 0rem
@@ -21,7 +22,7 @@ body
         & .life
             font-family 'byomregular'
     & p
-        color $green
+        color white
         font-family 'byomregular'
         font-size 24px
         line-height 1.2
@@ -34,7 +35,7 @@ body
         width 40px
 
 .logo
-    height 76px
+    height 75px !important
     width auto
 
 .header-icons
@@ -42,28 +43,31 @@ body
         color white
         font-family 'byombold'
     & a:hover
-        color $green
+        color white
         text-decoration underline
     & a:focus
-        color $green
+        color white
     & a:active
-        color $green
+        color white
     & i
-        color $green
+        color white
     & .telf
-        color $green
+        color white
         font-family 'Lato', sans-serif
         &:hover
             text-decoration none
 .icon-box-header-f,
 .icon-box-header-w
-    border solid 2px $green
+    border solid 1px white
     padding 5px
     &:hover
         text-decoration none
 
+.__link-icon:hover
+    text-decoration none !important
+
 .form-container
-    background-color $green
+    background-color $yellow
 
 .form-control
     background-color transparent
@@ -89,13 +93,13 @@ body
     padding 0.75rem .75rem
 
 .btn-header
-    color $green
+    color $yellow
     background-color white
     border-color white
     border-radius 4px
     font-family 'byombold'
     &:hover
-        color $green
+        color $yellow
 
 .content
     & h1
@@ -137,14 +141,14 @@ body
         font-family 'byomregular'
         font-size 30.24px
     & .border-img-mapa
-        border solid 8px $purple
+        border solid 8px $yellow
         padding-left 0px
         padding-right 0px
     & .img-mapa
         height auto
         width 100%
     & .ubicacion-bg-color
-        background-color $purple
+        background-color $yellow
         color white
         line-height 1.2
         & .mejor
@@ -156,7 +160,7 @@ body
             font-size 30px
             text-transform uppercase
         & .direccion
-            color $green
+            color white
             font-family 'byombold'
             font-size 24px
     & .mamparas-bg-color
