@@ -71,15 +71,15 @@ body {
 }
 .header .info {
   font-family: 'byombold';
-  font-size: 14px;
+  font-size: 15px;
 }
 .header .flecha {
   position: absolute;
-  margin: 45px 340px;
-  width: 40px;
+  margin: -22px 295px;
+  width: 70px;
 }
 .logo {
-  height: 75px !important;
+  height: 100px;
   width: auto;
 }
 .header-icons a {
@@ -118,8 +118,36 @@ body {
 .__link-icon:hover {
   text-decoration: none !important;
 }
+.__Oferta {
+  color: #fff;
+}
+.__PrecioDesdeContainer,
+.__InicialContainer {
+  color: #fff;
+}
+.__DesdeTexto {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.__Porcentaje {
+  font-size: 6rem;
+  font-weight: bold;
+}
+.__InicialTexto {
+  font-size: 2.2rem;
+  font-weght: bold;
+  text-transform: uppercase;
+}
+.__InicialPrecio {
+  background-color: #e2b723;
+  border-radius: 4px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 1px;
+}
 .form-container {
-  background-color: #e1b71f;
+  background-color: #e2b723;
 }
 .form-control {
   background-color: transparent;
@@ -158,14 +186,14 @@ body {
   padding: 0.75rem 0.75rem;
 }
 .btn-header {
-  color: #e1b71f;
+  color: #e2b723;
   background-color: #fff;
   border-color: #fff;
   border-radius: 4px;
   font-family: 'byombold';
 }
 .btn-header:hover {
-  color: #e1b71f;
+  color: #e2b723;
 }
 .content h1 {
   color: #0eb193;
@@ -216,7 +244,7 @@ body {
   font-size: 30.24px;
 }
 .content .border-img-mapa {
-  border: solid 8px #e1b71f;
+  border: solid 8px #e2b723;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -225,7 +253,7 @@ body {
   width: 100%;
 }
 .content .ubicacion-bg-color {
-  background-color: #e1b71f;
+  background-color: #e2b723;
   color: #fff;
   line-height: 1.2;
 }
