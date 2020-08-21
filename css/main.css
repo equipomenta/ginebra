@@ -260,6 +260,11 @@ body {
 .btn-header:hover {
   color: #e2b723;
 }
+@media (max-width: 764px) {
+  .btn-header {
+    margin-bottom: -15px !important;
+  }
+}
 .content h1 {
   color: #0eb193;
   font-family: 'byomregular';
@@ -272,12 +277,10 @@ body {
 }
 .content .icon-exclusivo-1 {
   height: 60px;
-  float: left;
   width: auto;
 }
 .content .icon-exclusivo-2 {
   height: 40px;
-  float: left;
   width: auto;
 }
 .content .img-edificio {
