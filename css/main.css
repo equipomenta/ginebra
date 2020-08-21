@@ -539,3 +539,25 @@ footer .url {
   font-family: 'trackregular';
   font-size: 18px;
 }
+.wsp-footer {
+  color: #0eb193;
+  font-size: 1.3rem;
+  font-weight: bold;
+  vertical-align: initial;
+}
+.phone {
+  color: #0eb193;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.email-footer,
+.web-footer {
+  color: #e2b723;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.link-footer {
+  color: #0eb193;
+  font-size: 1rem;
+  font-weight: bold;
+}
