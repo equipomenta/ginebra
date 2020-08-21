@@ -1,4 +1,4 @@
-@import 'stylesheet.styl'
+@import 'stylesheet.css'
 
 $green = #0eb193
 $purple = #415077
@@ -68,10 +68,12 @@ body
 
 //Oferta
 .__Oferta
-    color white
+    line-height 3.3rem
 
-.__PrecioDesdeContainer
-.__InicialContainer
+.__DesdeTexto
+.__Porcentaje
+.__InicialTexto
+.__InicialPrecio
     color white
 
 .__DesdeTexto
@@ -89,13 +91,15 @@ body
     text-transform uppercase
 
 .__InicialPrecio
-    background-color $yellow
-    border-radius 4px
     font-size 1.7rem
     font-weight bold
+
+.__InicialPrecioBG
+    background-color $yellow
+    border-radius 4px
     padding 1px
 
-
+//Form
 .form-container
     background-color $yellow
 
@@ -140,6 +144,14 @@ body
         border solid 8px $green
         padding-right 0px
         padding-left 0px
+    & .icon-exclusivo-1
+        height 60px
+        float left
+        width auto
+    & .icon-exclusivo-2
+        height 40px
+        float left
+        width auto
     & .img-edificio
         height auto
         width 100%
@@ -149,23 +161,34 @@ body
         line-height 1.2
         & .number
             font-family 'trackregular'
-            font-size 67px
-        & .exclusivos
-            font-family 'byomlight'
-            font-size 30px
+            font-size 35px
             text-transform uppercase
-        & .dpto
+        & .exclusivos-dpto
             font-family 'byombold'
-            font-size 30px
+            font-size 35px
             text-transform uppercase
-        & .dsd
-            color $purple
-            font-family 'byomlight'
-            font-size 24px
-        & .usd
-            color $purple
+        & .dptos
+            font-family 'byombold'
+            font-size 28px
+            text-transform uppercase
+        & .flats
+            font-family 'byombold'
+            font-size 31.2px
+            text-transform uppercase
+        & .number-2
             font-family 'trackregular'
-            font-size 24px
+            font-size 28px
+            text-transform uppercase
+        & .dorm
+            font-family 'byombold'
+            font-size 28px
+            text-transform uppercase
+        & .border-br
+            background-color $yellow
+            height 4px
+            margin-top 10px
+            margin-bottom 10px
+    
     & h1
         color $green
         font-family 'byomregular'
