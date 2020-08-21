@@ -342,13 +342,13 @@ body {
   text-transform: uppercase;
 }
 .content .ubicacion-bg-color .ubicacion {
-  font-family: 'byombold';
+  font-family: 'ubuntu_titlingbold';
   font-size: 30px;
   text-transform: uppercase;
 }
 .content .ubicacion-bg-color .direccion {
   color: #fff;
-  font-family: 'byombold';
+  font-family: 'ubuntu_titlingbold';
   font-size: 24px;
 }
 .content .mamparas-bg-color {
@@ -399,7 +399,7 @@ body {
 }
 .content-comprueba .comprueba-text .services-text {
   font-family: 'byomregular';
-  font-size: 12px;
+  font-size: 14px;
 }
 .content-comprueba .img-btn {
   cursor: pointer;
@@ -418,38 +418,39 @@ body {
   margin: -58px -28px;
 }
 .beneficios .two {
-  color: #415077;
+  color: #0eb193;
   font-family: 'trackregular';
-  font-size: 23px;
+  font-size: 2rem;
 }
 .beneficios .estaciona {
   color: #0eb193;
   font-family: 'byombold';
-  font-size: 14px;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 .beneficios .por {
   color: #0eb193;
   font-family: 'byombold';
-  font-size: 14px;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 .beneficios .dptos {
   color: #0eb193;
   font-family: 'byombold';
-  font-size: 14px;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 .beneficios .ascensor {
   color: #0eb193;
   font-family: 'byombold';
-  font-size: 14px;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 .beneficios .cocinas {
   color: #0eb193;
   font-family: 'byombold';
-  font-size: 14px;
+  font-size: 1.2rem;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .beneficios .equipadas {
@@ -477,9 +478,9 @@ body {
   text-transform: uppercase;
 }
 .beneficios .acabados {
-  color: #415077;
+  color: #0eb193;
   font-family: 'byombold';
-  font-size: 14px;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 .beneficios .calidad {
