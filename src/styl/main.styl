@@ -7,20 +7,21 @@ $yellow = #e2b723
 body
     font-family 'Lato', sans-serif
 
+@media (min-width: 576px)
+    .jumbotron
+        padding: 1rem 2rem
+
 .header
     background-image linear-gradient(rgba(14, 177, 147, 0.77), rgba(14, 177, 147, 0.77)), url("../images/header.jpg")
     background-size cover
     background-position center center
     border-radius 0rem
-    height 100%
+    min-height 100%
     padding-bottom 1rem
     & h1
         color white
-        font-family 'byombold'
-        font-size 40px
+        font-family 'byomregular'
         text-transform uppercase
-        & .life
-            font-family 'byomregular'
     & p
         color white
         font-family 'byomregular'
@@ -35,7 +36,7 @@ body
         width 70px
 
 .logo
-    height 100px
+    height 80px
     width auto
 
 .header-icons
@@ -68,7 +69,8 @@ body
 
 //Oferta
 .__Oferta
-    line-height 3.3rem
+    margin-bottom 1.2rem
+    line-height 3rem
 
 .__DesdeTexto
 .__Porcentaje
@@ -81,17 +83,17 @@ body
     font-size .8rem
     font-weight bold
     font-family 'bariolbold'
-    line-height 1.5rem
+    line-height 1.4rem
     padding-left 5px
     text-transform uppercase
 
 .__Porcentaje
     font-family 'bariolbold'
-    font-size 6rem
+    font-size 5.2rem
     font-weight bold
 
 .__InicialTexto
-    font-size 2.2rem
+    font-size 2rem
     font-family 'bariolbold'
     font-weght bold
     line-height 1.5rem
@@ -108,6 +110,9 @@ body
     padding 1px
 
 //Form
+::placeholder
+    font-size .5rem
+
 .form-container
     background-color $yellow
 
@@ -165,8 +170,8 @@ body
         height 40px
         width auto
     & .img-edificio
-        height auto
-        width 100%
+        height 400px
+        width auto
     & .exclusivo-bg-color
         background-color $green
         color white
@@ -178,6 +183,10 @@ body
         & .exclusivos-dpto
             font-family 'byombold'
             font-size 35px
+            text-transform uppercase
+        & .__Entregas
+            font-family 'trackregular'
+            font-size 25px
             text-transform uppercase
         & .dptos
             font-family 'byombold'
@@ -217,17 +226,17 @@ body
         color white
         line-height 1.2
         & .mejor
-            font-family 'byomlight'
+            font-family 'byomregular'
             font-size 30px
             text-transform uppercase
         & .ubicacion
-            font-family 'ubuntu_titlingbold'
-            font-size 30px
+            font-family 'byombold'
+            font-size 25px
             text-transform uppercase
         & .direccion
             color white
             font-family 'ubuntu_titlingbold'
-            font-size 24px
+            font-size 18px
     & .mamparas-bg-color
         background-color $green
     & .mamparas-pre-text
@@ -254,7 +263,7 @@ body
     & .comprueba-text
         background-color $green
         color white
-        & .siente, .comprueba
+        & .siente
             font-family 'byombold'
             font-size 39px
             line-height 1.2
@@ -275,43 +284,24 @@ body
 
 .beneficios
     & .box-beneficio
-        border solid 2px $green
-        height 100%
+        border solid 3px $green
+        height 180px
+        display flex
+        align-items center
     & .img-beneficio
         background-color white
         height auto
-        width 60px
+        width 90px
         position absolute
-        margin -58px -28px
+        margin -24px -44px
     & .two
         color $green
         font-family 'trackregular'
         font-size 2rem
-    & .estaciona
+    & .text-beneficio
         color $green
         font-family 'byombold'
         font-size 1.1rem
-        text-transform uppercase
-    & .por
-        color $green
-        font-family 'byombold'
-        font-size 1.1rem
-        text-transform uppercase
-    & .dptos
-        color $green
-        font-family 'byombold'
-        font-size 1.1rem
-        text-transform uppercase
-    & .ascensor
-        color $green
-        font-family 'byombold'
-        font-size 1.2rem
-        text-transform uppercase
-    & .cocinas
-        color $green
-        font-family 'byombold'
-        font-size 1.2rem
-        font-weight bold
         text-transform uppercase
     & .equipadas
         color $purple
@@ -332,11 +322,6 @@ body
         color $purple
         font-family 'byombold'
         font-size 14px
-        text-transform uppercase
-    & .acabados
-        color $green
-        font-family 'byombold'
-        font-size 1.2rem
         text-transform uppercase
     & .calidad
         color $purple

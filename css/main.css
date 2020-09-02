@@ -97,6 +97,11 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 1rem 2rem;
+  }
+}
 .header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(14,177,147,0.77)), to(rgba(14,177,147,0.77))), url("../images/header.jpg");
   background-image: -o-linear-gradient(rgba(14,177,147,0.77), rgba(14,177,147,0.77)), url("../images/header.jpg");
@@ -104,17 +109,13 @@ body {
   background-size: cover;
   background-position: center center;
   border-radius: 0rem;
-  height: 100%;
+  min-height: 100%;
   padding-bottom: 1rem;
 }
 .header h1 {
   color: #fff;
-  font-family: 'byombold';
-  font-size: 40px;
-  text-transform: uppercase;
-}
-.header h1 .life {
   font-family: 'byomregular';
+  text-transform: uppercase;
 }
 .header p {
   color: #fff;
@@ -132,7 +133,7 @@ body {
   width: 70px;
 }
 .logo {
-  height: 100px;
+  height: 80px;
   width: auto;
 }
 .header-icons a {
@@ -172,7 +173,8 @@ body {
   text-decoration: none !important;
 }
 .__Oferta {
-  line-height: 3.3rem;
+  margin-bottom: 1.2rem;
+  line-height: 3rem;
 }
 .__DesdeTexto,
 .__Porcentaje,
@@ -185,17 +187,17 @@ body {
   font-size: 0.8rem;
   font-weight: bold;
   font-family: 'bariolbold';
-  line-height: 1.5rem;
+  line-height: 1.4rem;
   padding-left: 5px;
   text-transform: uppercase;
 }
 .__Porcentaje {
   font-family: 'bariolbold';
-  font-size: 6rem;
+  font-size: 5.2rem;
   font-weight: bold;
 }
 .__InicialTexto {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-family: 'bariolbold';
   font-weght: bold;
   line-height: 1.5rem;
@@ -210,6 +212,21 @@ body {
   background-color: #e2b723;
   border-radius: 6px;
   padding: 1px;
+}
+::-webkit-input-placeholder {
+  font-size: 0.5rem;
+}
+::-moz-placeholder {
+  font-size: 0.5rem;
+}
+:-ms-input-placeholder {
+  font-size: 0.5rem;
+}
+::-ms-input-placeholder {
+  font-size: 0.5rem;
+}
+::placeholder {
+  font-size: 0.5rem;
 }
 .form-container {
   background-color: #e2b723;
@@ -284,8 +301,8 @@ body {
   width: auto;
 }
 .content .img-edificio {
-  height: auto;
-  width: 100%;
+  height: 400px;
+  width: auto;
 }
 .content .exclusivo-bg-color {
   background-color: #0eb193;
@@ -300,6 +317,11 @@ body {
 .content .exclusivo-bg-color .exclusivos-dpto {
   font-family: 'byombold';
   font-size: 35px;
+  text-transform: uppercase;
+}
+.content .exclusivo-bg-color .__Entregas {
+  font-family: 'trackregular';
+  font-size: 25px;
   text-transform: uppercase;
 }
 .content .exclusivo-bg-color .dptos {
@@ -348,19 +370,19 @@ body {
   line-height: 1.2;
 }
 .content .ubicacion-bg-color .mejor {
-  font-family: 'byomlight';
+  font-family: 'byomregular';
   font-size: 30px;
   text-transform: uppercase;
 }
 .content .ubicacion-bg-color .ubicacion {
-  font-family: 'ubuntu_titlingbold';
-  font-size: 30px;
+  font-family: 'byombold';
+  font-size: 25px;
   text-transform: uppercase;
 }
 .content .ubicacion-bg-color .direccion {
   color: #fff;
   font-family: 'ubuntu_titlingbold';
-  font-size: 24px;
+  font-size: 18px;
 }
 .content .mamparas-bg-color {
   background-color: #0eb193;
@@ -392,8 +414,7 @@ body {
   background-color: #0eb193;
   color: #fff;
 }
-.content-comprueba .comprueba-text .siente,
-.content-comprueba .comprueba-text .comprueba {
+.content-comprueba .comprueba-text .siente {
   font-family: 'byombold';
   font-size: 39px;
   line-height: 1.2;
@@ -418,50 +439,31 @@ body {
   height: auto;
 }
 .beneficios .box-beneficio {
-  border: solid 2px #0eb193;
-  height: 100%;
+  border: solid 3px #0eb193;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .beneficios .img-beneficio {
   background-color: #fff;
   height: auto;
-  width: 60px;
+  width: 90px;
   position: absolute;
-  margin: -58px -28px;
+  margin: -24px -44px;
 }
 .beneficios .two {
   color: #0eb193;
   font-family: 'trackregular';
   font-size: 2rem;
 }
-.beneficios .estaciona {
+.beneficios .text-beneficio {
   color: #0eb193;
   font-family: 'byombold';
   font-size: 1.1rem;
-  text-transform: uppercase;
-}
-.beneficios .por {
-  color: #0eb193;
-  font-family: 'byombold';
-  font-size: 1.1rem;
-  text-transform: uppercase;
-}
-.beneficios .dptos {
-  color: #0eb193;
-  font-family: 'byombold';
-  font-size: 1.1rem;
-  text-transform: uppercase;
-}
-.beneficios .ascensor {
-  color: #0eb193;
-  font-family: 'byombold';
-  font-size: 1.2rem;
-  text-transform: uppercase;
-}
-.beneficios .cocinas {
-  color: #0eb193;
-  font-family: 'byombold';
-  font-size: 1.2rem;
-  font-weight: bold;
   text-transform: uppercase;
 }
 .beneficios .equipadas {
@@ -486,12 +488,6 @@ body {
   color: #415077;
   font-family: 'byombold';
   font-size: 14px;
-  text-transform: uppercase;
-}
-.beneficios .acabados {
-  color: #0eb193;
-  font-family: 'byombold';
-  font-size: 1.2rem;
   text-transform: uppercase;
 }
 .beneficios .calidad {
