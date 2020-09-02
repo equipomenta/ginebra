@@ -97,6 +97,12 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+.__Gracias {
+  background-color: #0eb193;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+}
 @media (min-width: 576px) {
   .jumbotron {
     padding: 1rem 2rem;
