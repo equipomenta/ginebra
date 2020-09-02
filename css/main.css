@@ -172,47 +172,6 @@ body {
 .__link-icon:hover {
   text-decoration: none !important;
 }
-.__Oferta {
-  margin-bottom: 1.2rem;
-  line-height: 3rem;
-}
-.__DesdeTexto,
-.__Porcentaje,
-.__InicialTexto,
-.__InicialPrecio {
-  color: #fff;
-  text-shadow: 0em 0.1em 0.1em rgba(0,0,0,0.4);
-}
-.__DesdeTexto {
-  font-size: 0.8rem;
-  font-weight: bold;
-  font-family: 'bariolbold';
-  line-height: 1.4rem;
-  padding-left: 5px;
-  text-transform: uppercase;
-}
-.__Porcentaje {
-  font-family: 'bariolbold';
-  font-size: 5.2rem;
-  font-weight: bold;
-}
-.__InicialTexto {
-  font-size: 2rem;
-  font-family: 'bariolbold';
-  font-weght: bold;
-  line-height: 1.5rem;
-  text-transform: uppercase;
-}
-.__InicialPrecio {
-  font-size: 1.7rem;
-  font-family: 'bariolbold';
-  font-weight: bold;
-}
-.__InicialPrecioBG {
-  background-color: #e2b723;
-  border-radius: 6px;
-  padding: 1px;
-}
 ::-webkit-input-placeholder {
   font-size: 0.5rem;
 }
@@ -396,64 +355,6 @@ body {
   cursor: pointer;
   width: 200.696px;
   height: auto;
-}
-.beneficios .box-beneficio {
-  border: solid 3px #0eb193;
-  height: 180px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.beneficios .img-beneficio {
-  background-color: #fff;
-  height: auto;
-  width: 90px;
-  position: absolute;
-  margin: -24px -44px;
-}
-.beneficios .two {
-  color: #0eb193;
-  font-family: 'trackregular';
-  font-size: 2rem;
-}
-.beneficios .text-beneficio {
-  color: #0eb193;
-  font-family: 'byombold';
-  font-size: 1.1rem;
-  text-transform: uppercase;
-}
-.beneficios .equipadas {
-  color: #415077;
-  font-family: 'byombold';
-  font-size: 14px;
-  text-transform: uppercase;
-}
-.beneficios .equipadas-text {
-  color: #0eb193;
-  font-family: 'byomlight';
-  font-size: 12px;
-  text-transform: uppercase;
-}
-.beneficios .salida {
-  color: #415077;
-  font-family: 'byombold';
-  font-size: 14px;
-  text-transform: uppercase;
-}
-.beneficios .departamentos {
-  color: #415077;
-  font-family: 'byombold';
-  font-size: 14px;
-  text-transform: uppercase;
-}
-.beneficios .calidad {
-  color: #415077;
-  font-family: 'byombold';
-  font-size: 14px;
-  text-transform: uppercase;
 }
 .col-md-parejas {
   padding-right: 0px;
