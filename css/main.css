@@ -309,47 +309,6 @@ body {
   color: #fff;
   line-height: 1.2;
 }
-.content .exclusivo-bg-color .number {
-  font-family: 'trackregular';
-  font-size: 35px;
-  text-transform: uppercase;
-}
-.content .exclusivo-bg-color .exclusivos-dpto {
-  font-family: 'byombold';
-  font-size: 35px;
-  text-transform: uppercase;
-}
-.content .exclusivo-bg-color .__Entregas {
-  font-family: 'trackregular';
-  font-size: 25px;
-  text-transform: uppercase;
-}
-.content .exclusivo-bg-color .dptos {
-  font-family: 'byombold';
-  font-size: 28px;
-  text-transform: uppercase;
-}
-.content .exclusivo-bg-color .flats {
-  font-family: 'byombold';
-  font-size: 31.2px;
-  text-transform: uppercase;
-}
-.content .exclusivo-bg-color .number-2 {
-  font-family: 'trackregular';
-  font-size: 28px;
-  text-transform: uppercase;
-}
-.content .exclusivo-bg-color .dorm {
-  font-family: 'byombold';
-  font-size: 28px;
-  text-transform: uppercase;
-}
-.content .exclusivo-bg-color .border-br {
-  background-color: #e2b723;
-  height: 4px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 .content h1 {
   color: #0eb193;
   font-family: 'byomregular';
