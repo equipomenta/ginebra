@@ -236,9 +236,9 @@ body {
 .btn-header:hover {
   color: #e2b723;
 }
-@media (max-width: 764px) {
-  .btn-header {
-    margin-bottom: -15px !important;
+@media (max-width: 576px) {
+  .imput-box {
+    margin-bottom: 10px;
   }
 }
 .content h1 {
