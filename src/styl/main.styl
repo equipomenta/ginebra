@@ -17,6 +17,17 @@ body
     .jumbotron
         padding: 1rem 2rem
 
+.__text-header
+    font-size 2.4rem
+
+.__LinkPDF
+    cursor pointer
+    transition .2s
+    &:active
+        transform scale(.9)
+    &:hover
+        text-decoration none
+
 .header
     background-image linear-gradient(rgba(14, 177, 147, 0.77), rgba(14, 177, 147, 0.77)), url("../images/header.jpg")
     background-size cover
@@ -72,6 +83,11 @@ body
 
 .__link-icon:hover
     text-decoration none !important
+
+.franja
+    background-color $yellow
+    height 2px
+    margin-bottom 10px
 
 //Form
 ::placeholder
