@@ -20,14 +20,6 @@ body
 .__text-header
     font-size 2.4rem
 
-.__LinkPDF
-    cursor pointer
-    transition .2s
-    &:active
-        transform scale(.9)
-    &:hover
-        text-decoration none
-
 .header
     background-image linear-gradient(rgba(14, 177, 147, 0.77), rgba(14, 177, 147, 0.77)), url("../images/header.jpg")
     background-size cover
@@ -60,6 +52,7 @@ body
     & a
         color white
         font-family 'byombold'
+        font-size .9rem
     & a:hover
         color white
         text-decoration underline
@@ -77,17 +70,21 @@ body
 .icon-box-header-f,
 .icon-box-header-w
     border solid 1px white
-    padding 5px
+    padding 2px
     &:hover
         text-decoration none
 
 .__link-icon:hover
     text-decoration none !important
 
-.franja
-    background-color $yellow
-    height 2px
-    margin-bottom 10px
+@media (max-width: 576px)
+    .bg-icon-header
+        background-color $yellow
+        padding .6rem .4rem
+    .margin-b-movile
+        margin 50px
+    .logo-movil
+        display initial !important
 
 //Form
 ::placeholder
@@ -283,8 +280,16 @@ footer
     font-size 1rem
     font-weight bold
 
-.float
+.__WSP-Fixed
 	position fixed
 	bottom 25px 
 	right 25px
 	text-align center
+
+.__LinkPDF
+    cursor pointer
+    transition .2s
+    &:active
+        transform scale(.9)
+    &:hover
+        text-decoration none
