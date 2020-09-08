@@ -13,12 +13,32 @@ body
     font-family 'Lato', sans-serif
     height 100vh
 
+.container-icon-header
+    background-color $green
+    padding .4rem .2rem
+
+.container-icon-header a
+    color white
+    font-size .9rem
+
+.container-icon-header i
+    color white
+    font-size .9rem
+
+.bg-icon-header
+    background-color $yellow
+    padding .4rem .2rem
+
+.wsp
+    vertical-align text-top
+
 @media (min-width: 576px)
     .jumbotron
         padding: 1rem 2rem
 
-.__text-header
-    font-size 2.4rem
+@media (max-width: 764px)
+    .text-vive
+        height 120px
 
 .header
     background-image linear-gradient(rgba(14, 177, 147, 0.77), rgba(14, 177, 147, 0.77)), url("../images/header.jpg")
@@ -76,11 +96,6 @@ body
 
 .__link-icon:hover
     text-decoration none !important
-
-@media (max-width: 576px)
-    .bg-icon-header
-        background-color $yellow
-        padding .6rem .4rem
 
 //Form
 ::placeholder
